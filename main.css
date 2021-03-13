@@ -1,0 +1,17 @@
+body
+{
+	margin: 0px;
+}
+
+iframe
+{	
+	width: 1650px;
+	height: 950px;
+	display: block;
+	border: none;
+	margin: auto;
+}
+
+* {
+    outline: 0;
+}

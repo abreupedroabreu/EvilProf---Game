@@ -1,0 +1,82 @@
+@font-face {
+	font-family: varsityRegular;
+	src: url('../resources/fonts/varsity_regular.ttf') ;
+  }
+
+button {
+	box-shadow: 0px 0px 0px 2px #007bff;
+	background-color:#f7ff00;
+	border-radius:13px;
+	cursor:pointer;
+	color:#f00000;
+	font-family: varsityRegular;
+	font-size:25px;
+	padding:12px 60px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+
+.footer button{
+	display:inline-block;
+	position:absolute;
+}
+
+.footer button#voltar{
+	bottom:2%;
+	margin-left: 1%;
+}
+
+.footer button#continuar{
+	opacity: 0.5;
+	bottom:2%;
+	margin-left: 82%;
+}
+
+
+.footer button:hover {
+	background-color:#000000;
+	box-shadow: 0px 0px 0px 2px #f00000;
+}
+.footer button#continuar:hover {
+	opacity: 0.5;
+	background-color:#000000;
+	box-shadow: 0px 0px 0px 2px #f00000;
+}
+
+/* HIDE RADIO */
+[type=radio] { 
+	position: absolute;
+	opacity: 0;
+	width: 0;
+	height: 0;
+  }
+  
+  /* IMAGE STYLES */
+  [type=radio] + button {
+	cursor: pointer;
+  }
+  
+  /* CHECKED STYLES */
+  [type=radio]:checked + button {
+	outline: 3px solid #f00;
+  }
+
+  /* IMAGE STYLES */
+  [type=radio] + img {
+	cursor: pointer;
+  }
+  
+  /* CHECKED STYLES */
+  [type=radio]:checked + img {
+	outline: 3px solid #f00;
+  }
+
+
+/*
+.check-button{
+    list-style: none;
+    margin:0;
+    margin-right: 24%;
+    margin-left: 13%;
+    margin-top: 33%;
+  }*/

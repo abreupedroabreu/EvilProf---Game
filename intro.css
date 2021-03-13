@@ -1,0 +1,42 @@
+body {
+	position: absolute;
+	animation-name:carro;
+	animation-duration:10s;
+	animation-timing-function:linear;
+    background-color: black;
+    background-attachment: fixed;
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+#imagem{
+    
+    margin-top: 120%;
+    margin-left: 340%;
+    animation-name:professor;
+	animation-duration:10s;
+	animation-timing-function:linear;
+}
+
+@keyframes carro {
+	0%{background-image: url('../resources/images/intro1.png');}
+	10%{background-image: url('../resources/images/intro2.png');}
+	20%{background-image: url('../resources/images/intro3.png');}
+	30%{background-image: url('../resources/images/intro4.png');}
+	40%{background-image: url('../resources/images/intro5.png');}
+    50%{background-image: url('../resources/images/intro6.png');}
+    100%{background-image: url('../resources/images/intro6.png');}
+
+}
+
+@keyframes professor {
+	0%{opacity:0.0;}
+	10%{opacity:0.0;}
+    30%{opacity:0.25;}
+    35%{opacity:0.5;}
+	40%{opacity:0.75;}
+	45%{opacity:1;}
+	100%{opacity:1;}
+
+}

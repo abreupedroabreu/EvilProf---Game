@@ -1,0 +1,62 @@
+.numero{
+
+
+	border-radius:13px;
+
+	color:#f00000;
+	font-family: varsityRegular;
+	font-size:60px;
+	padding:12px 60px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+
+}
+
+.nome{
+
+	border-radius:13px;
+
+	color:#f00000;
+	font-family: varsityRegular;
+	font-size:60px;
+	padding:12px 60px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+
+}
+
+.conjuntoNome{
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.pontuacao{
+	border-radius:13px;
+
+	color:#f00000;
+	font-family: varsityRegular;
+	font-size:60px;
+	padding:12px 60px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+
+}
+.conjuntoPontuacao{
+
+	position: absolute;
+	top: 30%;
+	left: 70%;
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+
+}
+.conjuntoNumero{
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}

@@ -1,0 +1,46 @@
+canvas 
+{
+    margin: auto;
+    display: block;
+   
+}
+
+@font-face {
+	font-family: varsityRegular;
+	src: url('../resources/fonts/varsity_regular.ttf') ;
+  }
+
+.button {
+	box-shadow: 0px 0px 0px 2px #007bff;
+	background-color:#f7ff00;
+	border-radius:13px;
+	cursor:pointer;
+	color:#f00000;
+	font-family: varsityRegular;
+	font-size:25px;
+	padding:12px 60px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #283966;
+    
+    line-height: 12px;
+    margin-top: 2%;
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+
+.button:hover {
+	background-color:#000000;
+	box-shadow: 0px 0px 0px 2px #f00000;
+}
+
+.soundButton{
+    width: 54px;
+    height: 54px;
+    line-height: 11px;
+    margin-top: 2%;
+    position:absolute;
+    top:0;
+    right:0;
+}

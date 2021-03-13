@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/intro.css">
+     
+		
+	</head>
+
+	<body>
+        <audio id='audio' loop autoplay> 
+			<source src="../resources/sound/evilLaugh.mp3">
+		</audio>
+        <img id=imagem src="../resources/images/professor.png" style="opacity:0" >
+    </body>
+    
+    <script>
+        var circle = document.getElementsByTagName("body")[0];
+        
+
+        circle.addEventListener("animationend", function() {
+            console.log("sdaas");
+            window.location = "../html/main.html";
+        });
+
+    </script>
+</html>

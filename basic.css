@@ -1,0 +1,55 @@
+@font-face {
+	font-family: varsityRegular;
+	src: url('../resources/fonts/varsity_regular.ttf') ;
+  }
+
+.button {
+	box-shadow: 0px 0px 0px 2px #007bff;
+	background-color:#f7ff00;
+	border-radius:13px;
+	cursor:pointer;
+	color:#f00000;
+	font-family: varsityRegular;
+	font-size:25px;
+	padding:12px 60px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+	
+}
+
+.conjuntoBotoes{
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.conjuntoBotoes > button {
+	display: block;
+	margin: auto;
+	margin: 10px;
+}
+
+.button#voltar, .button#sair{
+	display:inline-block;
+	position:absolute;
+	bottom:2%;
+	margin-left: 1%;
+}
+
+.button#continuar{
+	display:inline-block;
+	position:absolute;
+	bottom:2%;
+	margin-left: 82%;
+}
+
+.button:hover {
+	background-color:#000000;
+	box-shadow: 0px 0px 0px 2px #f00000;
+}
+
+/*.button:active {
+	position:absolute;
+}*/
